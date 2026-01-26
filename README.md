@@ -14,3 +14,6 @@ The scRNA-seq datasets SRR23934263 and SRR23934264 correspond to baseline (diagn
 # Tailored workflow includes (not limited to)
 
 This workflow follows sc-best-practices but is tailored for reproducible annotation. PCA (top 30 PCs), kNN graph construction, UMAP embedding, and Leiden clustering were performed in prior dimensionality reduction and clustering steps, saved, and reused unchanged during annotation. Cell type annotation integrated manual marker inspection, cluster-level differential expression, and optional automated labeling with CellTypist applied on a copy of the data.
+
+# notebooks
+<img width="811" height="546" alt="image" src="https://github.com/user-attachments/assets/3d87475b-9d47-4af6-b0ee-65991a109f48" />
